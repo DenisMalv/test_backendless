@@ -14,7 +14,7 @@ const Layout = ()=>{
 
     useEffect(()=>{
         navigate('/dummyTable')
-    },[])
+    },[navigate])
 
     return (
         <div className="container">
