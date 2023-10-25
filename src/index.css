@@ -59,3 +59,17 @@ main{
   text-decoration: underline;
   color: blue;
 }
+
+/* tr,thead,tbody{
+ 
+} */
+
+table {
+  border-collapse: collapse; 
+
+}
+
+table, th, td {
+  border: 1px solid #000; 
+}
+
