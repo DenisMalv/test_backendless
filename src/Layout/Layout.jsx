@@ -2,19 +2,19 @@ import Header from "components/Header/Header"
 import Loader from "components/Loader/Loader"
 import { Suspense, useEffect } from "react"
 
-const { Outlet, useNavigate } = require("react-router-dom")
+const { Outlet, useNavigate, useLocation } = require("react-router-dom")
 
 
 
 
 
 const Layout = ()=>{
-
+    const location = useLocation()
     const navigate = useNavigate()
 
     useEffect(()=>{
-        navigate('/dummyTable')
-    },[navigate])
+        location.pathname === "/" && navigate('/dummyTable')
+    },[location.pathname, navigate])
 
     return (
         <div className="container">

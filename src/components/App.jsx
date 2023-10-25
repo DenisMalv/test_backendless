@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Routes>
     <Route path="/" element={<Layout />}>
-      <Route path='dummyTable' element={<DummyTable />} />
+      <Route path="dummyTable" element={<DummyTable />} />
       <Route path="dummyChart" element={<DummyChart />} />
       <Route path="dummyList" element={<DummyList />} />
 

@@ -2,7 +2,7 @@
   "name": "react",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://denismalv.github.io/",
+  "homepage": "https://denismalv.github.io/test_backendless/",
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@testing-library/jest-dom": "^5.16.1",
